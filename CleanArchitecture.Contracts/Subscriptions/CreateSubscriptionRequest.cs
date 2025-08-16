@@ -1,0 +1,3 @@
+namespace CleanArchitecture.Contracts.Subscriptions;
+
+public sealed record CreateSubscriptionRequest(SubscriptionType SubscriptionType,string AdminId);
